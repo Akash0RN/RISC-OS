@@ -8,3 +8,10 @@ target/
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+=======
+/target
+.DS_Store
+*.bin
+*.elf
+export-esp.sh
+>>>>>>> 40346934627a31e99ff14b436ae2db1ce8312702
