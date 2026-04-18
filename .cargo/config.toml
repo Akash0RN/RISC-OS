@@ -1,6 +1,5 @@
 [target.riscv32imc-unknown-none-elf]
-runner = "espflash flash --monitor --no-stub"
-
+runner = "espflash flash --monitor"
 [env]
 ESP_LOG="info"
 
