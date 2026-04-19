@@ -1,0 +1,15 @@
+[package]
+name = "qemu-kernel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[profile.release]
+opt-level = 'z'
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.dev]
+panic = "abort"
